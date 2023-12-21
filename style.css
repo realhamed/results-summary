@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Overpass:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  --light-red-color: #ff5757;
+  --orange-yellow-color: #ffb01f;
+  --green-teal-color: #00bd91;
+  --cobalt-blue-color: #1125d4;
+  --light-slate-blue-color: #7857ff;
+  --light-royal-blue-color: #2e2be9;
+  --violet-blue-circle: #4e21ca;
+  --persian-blue-circle: #2421ca00;
+  --white-color: #ffffff;
+  --pale-blue-color: #ebf1ff;
+  --light-lavender-color: #c8c7ff;
+  --dark-gray-blue-color: #303b5a;
+}
+
+body {
+  background-color: var(--pale-blue-color);
+  font-family: "Hanken Grotesk";
+}
+
+.left-section {
+  background: linear-gradient(#7857ff, #1125d4);
+}
+
+.explanation,
+.yourResult,
+.score-container {
+  color: var(--light-lavender-color);
+}
+
+.score-container {
+  background: linear-gradient(#4e21ca, #4e21ca00);
+}
+
+.summary {
+  color: var(--dark-gray-blue-color);
+}
+
+p {
+  font-size: 18px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summary Results</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="flex justify-center items-center md:h-screen">
+    <main
+      class="flex md:flex-row flex-col items-center md:w-[750px] w-[375px] shadow-lg md:rounded-3xl bg-white md:mt-0 -mt-8">
+      <div
+        class="left-section flex flex-col items-center justify-center p-14 md:rounded-3xl rounded-b-3xl md:w-1/2">
+        <h2 class="yourResult text-2xl">Your Result</h2>
+        <div class="score-container flex flex-col items-center rounded-full px-14 py-12 my-8">
+          <span class="text-7xl text-white font-bold">76</span> of 100
+        </div>
+        <h2 class="font-bold text-3xl text-white mb-4">Great</h2>
+        <p class="explanation text-center">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="right-section bg-white md:w-1/2 w-full p-10 md:py-14 py-8 rounded-full">
+        <h2 class="summary text-2xl font-bold mb-8">Summary</h2>
+        <div class="flex gap-3 bg-[#ff575715] py-3 px-4 rounded-xl mb-5">
+          <img src="assets/images/icon-reaction.svg" alt="" />
+          <div class="flex justify-between w-full font-bold">
+            <p class="text-[#ff5757]">Reaction</p>
+            <p class="text-[#303b5a82]"><span class="text-[#303b5a]">80</span> / 100</p>
+          </div>
+        </div>
+        <div class="flex gap-3 bg-[#ffb11f15] py-3 px-4 rounded-xl mb-5">
+          <img src="assets/images/icon-memory.svg" alt="" />
+          <div class="flex justify-between w-full font-bold">
+            <p class="text-[#ffb01f]">Memory</p>
+            <p class="text-[#303b5a82]"><span class="text-[#303b5a]">92</span> / 100</p>
+          </div>
+        </div>
+        <div class="flex gap-3 bg-[#00bd9115] py-3 px-4 rounded-xl mb-5">
+          <img src="assets/images/icon-verbal.svg" alt="" />
+          <div class="flex justify-between w-full font-bold">
+            <p class="text-[#00bd91]">Verbal</p>
+            <p class="text-[#303b5a82]"><span class="text-[#303b5a]">61</span> / 100</p>
+          </div>
+        </div>
+        <div class="flex gap-3 bg-[#1124d415] py-3 px-4 rounded-xl mb-10">
+          <img src="assets/images/icon-visual.svg" alt="" />
+          <div class="flex justify-between w-full font-bold">
+            <p class="text-[#1125d4]">Visual</p>
+            <p class="text-[#303b5a82]"><span class="text-[#303b5a]">72</span> / 100</p>
+          </div>
+        </div>
+        <button
+          class="bg-[#303b5a] text-white w-full rounded-full py-3 text-lg hover:bg-[#2e2be9] transition">
+          Continue
+        </button>
+      </div>
+    </main>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
